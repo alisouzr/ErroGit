@@ -1,0 +1,20 @@
+Modifiquei o README.md no GitHub e dei o commit lá, mas não fiz o pull para o arquivo local e modifiquei o arquivo local também e dei um "git add ." e deu erro porque a versão do projeto que eu tinha já estava obsoleta, pois eu já avia modificado ela, depois disso eu fiz um "git pull origin main" para que a versão mais atual do GitHub estivesse no arquivo local e depois fiz o "git push origin main" e abriu uma tela que eu não conseguia sair, segue a tela : 
+
+---------------------------------------------------------------------
+# Please enter the commit message for your changes. Lines starting   |
+# with '#' will be ignored, and an empty message aborts the commit.  |
+#                                                                    |
+# On branch master                                                   |
+# Changes to be committed:                                           |
+#       modified:   index.html                                       |
+#                                                                    |
+# Untracked files:                                                   |
+#       .index.html.swp                                              |
+#                                                                    |
+~                                                                    |
+(...)                                                                |
+---------------------------------------------------------------------
+
+para sair dessa tela, basta você digitar esse comandos: 
+
+clique no "i"(para entrar no modo de inserção do vim), digite a sua mensagem, depois digite "ESC" para sair do modo de inserção e por digite ":wq" e tecle enter.
